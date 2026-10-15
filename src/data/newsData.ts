@@ -137,6 +137,78 @@ export const SECONDARY_ARTICLES: Article[] = [
   }
 ];
 
+export const OPINION_ARTICLES: Article[] = [
+  {
+    id: 'op-french-confirmations',
+    category: 'Opinion',
+    title: 'The Real Danger of Weakening Senate Confirmation Checks',
+    summary: 'When administrations circumvent legislative advice and consent, institutional guardrails fray for everyone.',
+    readTime: '6 MIN READ',
+    commentCount: 684,
+    author: 'By David French',
+    date: 'Wednesday, Oct. 14, 2026',
+    content: [
+      'The framers of the Constitution did not establish the advice-and-consent clause as a decorative courtesy. It was designed as an indispensable check against factional loyalty taking precedence over constitutional competence.',
+      'In recent years, both parties have probed the outer boundaries of recess appointments and acting designations. But the emerging norm in Washington threatens to hollow out congressional oversight altogether.',
+      'When nominees skip rigorous committee examination, the public loses its primary window into how executive power is wielded and who is accountable when crises strike.'
+    ]
+  },
+  {
+    id: 'op-klein-state-capacity',
+    category: 'Opinion',
+    title: 'The Next Phase of Industrial Policy Depends on State Capacity',
+    summary: 'Passing massive legislative appropriations was the easy part; building the infrastructure is where the crisis begins.',
+    readTime: '8 MIN READ',
+    commentCount: 412,
+    author: 'By Ezra Klein',
+    date: 'Wednesday, Oct. 14, 2026',
+    content: [
+      'The United States has committed trillions of dollars to green manufacturing, semiconductor fabs, and transit over the past four years. Yet project timelines continue to stretch into decades.',
+      'The bottleneck is rarely financial capital; it is bureaucratic friction, overlapping environmental reviews, and litigious veto points that stifle execution.',
+      'If modern democracy cannot prove it can build things quickly and affordably, the political backlash will sweep away the policy consensus.'
+    ]
+  }
+];
+
+export const BUSINESS_ARTICLES: Article[] = [
+  {
+    id: 'biz-ai-chips-policy',
+    category: 'Business & Tech',
+    title: 'Global Chip Consortium Negotiates New Advanced Export Thresholds',
+    summary: 'Allied commerce ministries seek coordinated rules for next-generation wafer fabrication equipment.',
+    readTime: '5 MIN READ',
+    commentCount: 198,
+    author: 'By Tripp Mickle and Don Clark',
+    date: 'Wednesday, Oct. 14, 2026',
+    content: [
+      'Trade officials from the United States, Japan, and the Netherlands met in Brussels on Wednesday to finalize unified guidelines for exports of extreme ultraviolet lithography systems.',
+      'The talks aim to balance national security safeguards against semiconductor espionage while preventing market distortions for commercial electronics manufacturers.'
+    ]
+  },
+  {
+    id: 'biz-wall-street-inflation',
+    category: 'Markets',
+    title: 'Wall Street Pushes Higher as Inflation Metrics Settle Near Target',
+    summary: 'Bond yields stabilized following wholesale price index readings that showed subdued producer costs.',
+    readTime: '4 MIN READ',
+    commentCount: 87,
+    author: 'By Joe Rennison',
+    date: 'Wednesday, Oct. 14, 2026',
+    content: [
+      'U.S. equities climbed on Wednesday morning, with major indexes testing fresh quarterly highs as core wholesale inflation held at an annualized 2.1 percent.',
+      'Traders expanded bets that the Federal Reserve would maintain its easing posture through the winter rate-setting meetings.'
+    ]
+  }
+];
+
+export const MARKET_DATA = [
+  { symbol: 'S&P 500', value: '5,842.10', change: '+0.42%', positive: true },
+  { symbol: 'Nasdaq', value: '18,375.40', change: '+0.68%', positive: true },
+  { symbol: 'Dow', value: '42,410.20', change: '+0.25%', positive: true },
+  { symbol: '10-Yr Yield', value: '4.08%', change: '-0.03', positive: true },
+  { symbol: 'Crude Oil', value: '$74.20', change: '-1.1%', positive: false }
+];
+
 export const INITIAL_COMMENTS: Comment[] = [
   {
     id: 'c1',
@@ -186,6 +258,14 @@ export const INITIAL_COMMENTS: Comment[] = [
   }
 ];
 
+export const TRENDING_ARTICLES = [
+  { rank: 1, title: 'High-Ranking Women Are Leaving the Trump Administration', readTime: '5 MIN READ' },
+  { rank: 2, title: 'The Steep Rise and Sudden Fall of Kimberly Guilfoyle', readTime: '7 MIN READ' },
+  { rank: 3, title: 'Trump’s New Press Secretary: Not-Quite Attorney at Law', readTime: '4 MIN READ' },
+  { rank: 4, title: 'Ukraine’s Exposure Grows as Satellite Use Is Restricted', readTime: '6 MIN READ' },
+  { rank: 5, title: 'The Real Danger of Weakening Senate Confirmation Checks', readTime: '6 MIN READ' }
+];
+
 export const SECTIONS_LIST = [
   { name: 'Today’s Paper', count: '18 articles' },
   { name: 'World', count: '42 articles' },
@@ -201,3 +281,4 @@ export const SECTIONS_LIST = [
   { name: 'Wirecutter', count: 'Product Reviews' },
   { name: 'The Athletic', count: 'Live Scores & Analysis' }
 ];
+

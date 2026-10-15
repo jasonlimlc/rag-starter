@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Search, X, ArrowRight, Clock } from 'lucide-react';
-import { Article, LEAD_ARTICLE, SECONDARY_ARTICLES } from '../data/newsData';
+import { Article, LEAD_ARTICLE, SECONDARY_ARTICLES, OPINION_ARTICLES, BUSINESS_ARTICLES } from '../data/newsData';
 
 interface SearchModalProps {
   isOpen: boolean;
@@ -8,7 +8,7 @@ interface SearchModalProps {
   onSelectArticle: (article: Article) => void;
 }
 
-const ALL_ARTICLES = [LEAD_ARTICLE, ...SECONDARY_ARTICLES];
+const ALL_ARTICLES = [LEAD_ARTICLE, ...SECONDARY_ARTICLES, ...OPINION_ARTICLES, ...BUSINESS_ARTICLES];
 
 export const SearchModal: React.FC<SearchModalProps> = ({
   isOpen,
