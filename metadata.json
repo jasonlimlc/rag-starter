@@ -1,0 +1,6 @@
+{
+  "name": "The New York Times",
+  "description": "The New York Times: Breaking News, US News, World News, Analysis and Daily Games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
